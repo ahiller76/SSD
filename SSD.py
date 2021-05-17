@@ -4,8 +4,8 @@ from keras import backend as K
 from keras.optimizers import Adam
 import numpy as np
 from matplotlib import pyplot as plt
-from models.keras_ssd300 import ssd_300
-from keras_loss_function.keras_ssd_loss import SSDLoss
+from keras_ssd300 import ssd_300
+from keras_ssd_loss import SSDLoss
 
 # Resize Image
 img_height = 300
